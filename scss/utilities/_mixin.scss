@@ -1,0 +1,10 @@
+@mixin shares ($flex, $width, $margin, $border, $border-radius, $box-shadow, $transition)
+{
+    flex: $flex; //Hace que las imágenes se expandan para ocupar el espacio disponible
+    width: $width;
+    margin: $margin; //Espacio entre las imágenes
+    border: $border;
+    border-radius: $border-radius;
+    box-shadow: $box-shadow; //Sombra alrededor del borde
+    transition: $transition; //para que el efecto del hover sea más progresivo
+}

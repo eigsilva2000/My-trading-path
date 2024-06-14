@@ -1,0 +1,30 @@
+/*Estilo share your trades*/
+.img-share {
+    display: flex;
+    flex-wrap: wrap; //Permite que las imágenes se envuelvan en varias líneas en dispositivos más pequeños
+    justify-content: space-between; //Ajusta el espacio entre las imágenes
+}
+.imagen-trade1 {
+    @include shares (1, 40%, 10px, 1px solid black, 10px, 0 0 10px rgba(0, 0, 0, 1), transform 0.3s ease-in-out);
+    &:hover {
+        transform: scale(1.2) //Para que se agranden las fotos al acercar el mouse
+    }
+}
+.imagen-trade2 {
+    @include shares (1, 40%, 10px, 1px solid black, 10px, 0 0 10px rgba(0, 0, 0, 1), transform 0.3s ease-in-out);
+    &:hover {
+        transform: scale(1.2)
+    }
+}
+.imagen-trade3 {
+    @include shares (1, 40%, 10px, 1px solid black, 10px, 0 0 10px rgba(0, 0, 0, 1), transform 0.3s ease-in-out);
+    &:hover {
+        transform: scale(1.2)
+    }
+}
+.imagen-trade4 {
+    @include shares (1, 40%, 10px, 1px solid black, 10px, 0 0 10px rgba(0, 0, 0, 1), transform 0.3s ease-in-out);
+    &:hover {
+        transform: scale(1.2)
+    }
+}

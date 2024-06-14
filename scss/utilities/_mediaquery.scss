@@ -1,0 +1,21 @@
+/*Responsive*/
+@media screen and (max-width: 240px) {
+    .accordion-button {
+        display: block;
+    }
+    .row {
+        flex-direction: column;
+        margin: 0;
+    }
+    .col {
+        width: 100%;
+        margin: 0;
+    }
+    .grid-container {
+        width: 50%;
+    }
+    .grid-item {
+        width: 50%;
+        font-size: 45%;
+    }
+}

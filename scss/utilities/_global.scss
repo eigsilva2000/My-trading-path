@@ -1,0 +1,48 @@
+//Estilos globales - no ya que el footer y header se ve igual en cada página, los dejaré aquí, no es necesario crear otro archivo
+/*favicon*/
+/*Header*/
+header {
+    text-align: center;
+    .logo img {
+    display: block;
+    width: 30%;
+    height: auto;
+    margin: 0 auto;
+    }
+    .logo-nombre h1 {
+        text-align: center;
+        margin-top: 5px;
+    }
+}
+/*Body*/
+.collapsed {
+    background-color: rgb(244, 244, 244);
+}
+/*Footer*/
+footer {
+    display: block; /*Para que ocupe todo el espacio*/
+    background-color: azure;
+    border: 1px solid black;
+    a{
+        /*Volviéndolo responsive*/
+        text-decoration: none;
+        color: black;
+        display: inline-block;
+        gap: 500px;
+        text-align: center;
+        justify-content: space-evenly;
+        padding: 20px;
+        flex: 1; /*Para que cada enlace ocupe el mismo espacio*/
+    }
+}
+/*Otros globales*/
+.row {
+    margin: 4%;
+}
+.col {
+    margin-right: 4%;
+    margin-left: 4%;
+    a{
+        text-decoration: none;
+    }
+}
