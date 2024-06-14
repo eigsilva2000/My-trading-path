@@ -13,11 +13,11 @@ header {
         text-align: center;
         margin-top: 5px;
     }
+    .collapsed {
+        background-color: rgb(244, 244, 244);
+    }
 }
-/*Body*/
-.collapsed {
-    background-color: rgb(244, 244, 244);
-}
+
 /*Footer*/
 footer {
     display: block; /*Para que ocupe todo el espacio*/

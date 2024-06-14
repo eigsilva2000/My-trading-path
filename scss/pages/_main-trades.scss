@@ -1,4 +1,5 @@
 /*Estilo share your trades*/
+//Aplicando mixin y transiciones al mismo tiempo
 .img-share {
     display: flex;
     flex-wrap: wrap; //Permite que las imágenes se envuelvan en varias líneas en dispositivos más pequeños
@@ -6,24 +7,40 @@
 }
 .imagen-trade1 {
     @include shares (1, 40%, 10px, 1px solid black, 10px, 0 0 10px rgba(0, 0, 0, 1), transform 0.3s ease-in-out);
+    transition-property: transform;
+    transition-duration: 0.8s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 5ms;
     &:hover {
         transform: scale(1.2) //Para que se agranden las fotos al acercar el mouse
     }
 }
 .imagen-trade2 {
     @include shares (1, 40%, 10px, 1px solid black, 10px, 0 0 10px rgba(0, 0, 0, 1), transform 0.3s ease-in-out);
+    transition-property: transform;
+    transition-duration: 0.8s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 5ms;
     &:hover {
         transform: scale(1.2)
     }
 }
 .imagen-trade3 {
     @include shares (1, 40%, 10px, 1px solid black, 10px, 0 0 10px rgba(0, 0, 0, 1), transform 0.3s ease-in-out);
+    transition-property: transform;
+    transition-duration: 0.8s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 5ms;
     &:hover {
         transform: scale(1.2)
     }
 }
 .imagen-trade4 {
     @include shares (1, 40%, 10px, 1px solid black, 10px, 0 0 10px rgba(0, 0, 0, 1), transform 0.3s ease-in-out);
+    transition-property: transform;
+    transition-duration: 0.8s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 5ms;
     &:hover {
         transform: scale(1.2)
     }

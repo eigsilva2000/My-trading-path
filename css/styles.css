@@ -20,9 +20,7 @@ header .logo-nombre h1 {
   text-align: center;
   margin-top: 5px;
 }
-
-/*Body*/
-.collapsed {
+header .collapsed {
   background-color: rgb(244, 244, 244);
 }
 
@@ -72,6 +70,10 @@ footer a {
   border-radius: 10px;
   box-shadow: 0 0 10px rgb(0, 0, 0);
   transition: transform 0.3s ease-in-out;
+  transition-property: transform;
+  transition-duration: 0.8s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 5ms;
 }
 .imagen-trade1:hover {
   transform: scale(1.2);
@@ -85,6 +87,10 @@ footer a {
   border-radius: 10px;
   box-shadow: 0 0 10px rgb(0, 0, 0);
   transition: transform 0.3s ease-in-out;
+  transition-property: transform;
+  transition-duration: 0.8s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 5ms;
 }
 .imagen-trade2:hover {
   transform: scale(1.2);
@@ -98,6 +104,10 @@ footer a {
   border-radius: 10px;
   box-shadow: 0 0 10px rgb(0, 0, 0);
   transition: transform 0.3s ease-in-out;
+  transition-property: transform;
+  transition-duration: 0.8s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 5ms;
 }
 .imagen-trade3:hover {
   transform: scale(1.2);
@@ -111,6 +121,10 @@ footer a {
   border-radius: 10px;
   box-shadow: 0 0 10px rgb(0, 0, 0);
   transition: transform 0.3s ease-in-out;
+  transition-property: transform;
+  transition-duration: 0.8s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 5ms;
 }
 .imagen-trade4:hover {
   transform: scale(1.2);
@@ -130,6 +144,10 @@ footer a {
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
   transition: transform 0.3s ease-in-out; /*para que el efecto del hover sea más progresivo*/
+  transition-property: transform;
+  transition-duration: 0.8s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 5ms;
 }
 .grid-item:hover {
   transform: scale(1.2);
